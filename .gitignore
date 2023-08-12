@@ -86,3 +86,6 @@ tutorial/
 url/
 var/
 workspace/
+straight/
+persp-confs/
+*.desktop

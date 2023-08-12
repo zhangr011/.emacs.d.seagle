@@ -57,6 +57,7 @@
           mac-command-modifier 'super)
     (bind-keys ([(super a)] . mark-whole-buffer)
                ([(super c)] . kill-ring-save)
+               ([(super x)] . kill-region)
                ([(super l)] . goto-line)
                ([(super q)] . save-buffers-kill-emacs)
                ([(super s)] . save-buffer)

@@ -114,8 +114,13 @@ Otherwise the startup will be very slow."
 ;; Packages
 ;; Without this comment Emacs25 adds (package-initialize) here
 (require 'init-package)
+(require 'init-straight)
+
+(require 'use-package)
+;; (require 'quelpa-use-package)
 
 ;; Preferences
+(require 'init-rime)
 (require 'init-base)
 (require 'init-hydra)
 
@@ -151,18 +156,22 @@ Otherwise the startup will be very slow."
 ;; Programming
 (require 'init-vcs)
 (require 'init-flymake)
-(require 'init-lsp)
+;; (require 'init-flycheck)
+;; (require 'init-lsp)
 (require 'init-ctags)
 
 (require 'init-prog)
+(require 'init-copilot)
 (require 'init-elisp)
 (require 'init-c)
 (require 'init-go)
 (require 'init-rust)
 (require 'init-python)
 (require 'init-ruby)
-(require 'init-elixir)
+;; (require 'init-elixir)
 (require 'init-web)
+
+(require 'init-lua)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
